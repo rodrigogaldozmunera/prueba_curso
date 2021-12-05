@@ -6,7 +6,7 @@ app.use(express.static(__diarname + '/public'));
 app.get('/hola',(req,res) => {
     res.send('ruta hola');
 })
-
+#SEGUNDO COMENTARIO
 app.get('/adios', (req,res) => {
     res.sed(ruta Adiós);
 })
