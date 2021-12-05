@@ -11,6 +11,10 @@ app.get('/adios', (req,res) => {
     res.sed(ruta Adiós);
 })
 
+app.post('/registro', (req,res) => {
+    res.sed('recibiendo informacion de registro');
+})
+
 app.listen(3000,() => {
     console.log('Example app listening on port 3000!');
 }
