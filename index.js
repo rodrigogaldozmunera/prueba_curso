@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.static(__diarname + '/public'));
-
+#PRIMER COMENTARIO
 app.get('/hola',(req,res) => {
     res.send('ruta hola');
 })
